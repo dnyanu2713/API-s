@@ -13,7 +13,7 @@ import ch.qos.logback.core.net.SyslogOutputStream;
 
 public class GoogleNewsRestApi {
 	public static void main(String[] args) throws IOException, JSONException {
-		String apiKey = "76b4eedd123c4f53b6f2e7b2abea2500";
+		String apiKey = "**************************************";
 		String[] keywords = new String[] { "Dengue", "Malaria", "Covid-19", "Hidoc Dr" };
 
 		Scanner scanner = new Scanner(System.in);
